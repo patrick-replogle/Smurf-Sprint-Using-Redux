@@ -1,0 +1,132 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #62cdfd;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  background: #62cdfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.smurfListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.smurfCard {
+  border: 1px solid white;
+  color: white;
+  width: 40%;
+  border-radius: 6px;
+  background: rgb(240, 85, 85);
+  margin: 20px 20px;
+}
+
+.smurfCard button {
+  background: #316e92;
+  border: 1px solid white;
+  color: white;
+  width: 20%;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 10px 10px;
+  outline: none;
+}
+
+.smurfCard button:hover {
+  background: white;
+  color: #316e92;
+  border: 1px solid #316e92;
+}
+
+/* Add smurf Form styles */
+.form input {
+  border-radius: 6px;
+  padding: 10px 0;
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-top: 0;
+  margin-right: 8px;
+}
+
+.form input::placeholder {
+  color: white;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form button {
+  background: #316e92;
+  border: 1px solid white;
+  color: white;
+  width: 30%;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.form button:hover {
+  background: white;
+  color: #316e92;
+  border: 1px solid #316e92;
+}
+
+/* Edit form styles */
+.editForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  color: white;
+  width: 40%;
+  border-radius: 6px;
+  background: rgb(240, 85, 85);
+  margin: 20px 20px;
+}
+
+.editForm input {
+  text-align: center;
+  border-radius: 6px;
+  color: white;
+  background: rgb(240, 85, 85);
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+}
+
+.editForm button {
+  background: #316e92;
+  border: 1px solid white;
+  color: white;
+  width: 30%;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.editForm button:hover {
+  background: white;
+  color: #316e92;
+}
